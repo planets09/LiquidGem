@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Pacifico');
 
-/*font-family: 'Pacifico', cursive;
-font-family: 'Noto Sans', sans-serif;*/
-
-/** {
-	border: 0;
-	margin: 0;
-	outline: none;
-	padding: 0;
-}*/
-
-
 body {
 	background-color: #D3D3D3;
 }
@@ -94,16 +83,16 @@ hr {
 }
 
 .hello .banner {
-	border-radius: 20px;
-	height: 250px;
-	width: 85%;
-	overflow: hidden;
-	background-image: url("../images/sunset-rocks.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	margin: 0 auto;
-	margin-top: 5px;
+    border-radius: 20px;
+    height: 285px;
+    width: 1570px;
+    overflow: hidden;
+    background-image: url(../images/sunset-rocks.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 5px;
 }
 
 .work-left {
@@ -135,253 +124,79 @@ hr {
 	font-family: 'Noto Sans', sans-serif;
 }
 
-/*.gallery {
-	display: inline-block;
+.squares {
+    width: 1340px;
+    text-align: center;
+    margin: 0 auto;
+}
 
-}*/
+.mainbox {
+    padding: 15px;
+    display: inline-block;
+}
 
-
-.squares-top .stormy {
+.boxes {
     border-top-left-radius: 15px;
     height: 140px;
     border-top-right-radius: 15px;
-    width: 70%;
+    width: 233px;
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    background-color: white;
+    position: relative;
+    height: 50px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 233px;
+    top: -18px;
+}
+
+.stormy {
     background-image: url(../images/lightening.jpeg);
-    background-size: cover;
-    background-position: center;
-    margin-left: 20px;
 }
 
-.stormytext {
-    background-color: white;
-    position: relative;
-    height: 50px;
-    margin-left: 23px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 70%;
-    top: -18px;
-    left: -3px;
-}
-
-.squares-top .racing {
-    border-top-left-radius: 15px;
-    height: 140px;
-    border-top-right-radius: 15px;
-    width: 70%;
-    overflow: hidden;
+.racing {
     background-image: url(../images/racingcapetown.jpeg);
-    background-size: cover;
-    background-position: center;
-    margin-left: 20px;
 }
 
-.racingtext {
-    background-color: white;
-    position: relative;
-    height: 50px;
-    margin-left: 23px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 70%;
-    top: -18px;
-    left: -3px;
-}
-
-
-.squares-top .deer {
-	border-top-left-radius: 15px;
-    height: 140px;
-    border-top-right-radius: 15px;       
-    width: 70%;
-    overflow: hidden;
+.deer {
     background-image: url("../images/africa.jpeg");
-    background-size: cover;
-    background-position: center;
-    margin-left: 20px;
 }
 
-.deertext {
-    background-color: white;
-    position: relative;
-    height: 50px;
-    margin-left: 23px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 70%;
-    top: -18px;
-    left: -3px;
-}
-
-
-.squares-top .lazy {
-	border-top-left-radius: 15px;
-    height: 140px;
-    border-top-right-radius: 15px;   
-    width: 70%;
-    overflow: hidden;
+.lazy {
     background-image: url("../images/lazydays.jpeg");
-    background-size: cover;
-    background-position: right center;
-    margin-left: 20px;
 }
 
-.lazytext {
-	background-color: white;
-    position: relative;
-    height: 50px;
-    margin-left: 23px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 70%;
-    top: -18px;
-    left: -3px;	
-}
-
-.squares-top .wire {
-	border-top-left-radius: 15px;
-    height: 140px;
-    border-top-right-radius: 15px;
-    width: 70%;
-    overflow: hidden;
+.wire {
     background-image: url("../images/barbedwire.jpeg");
-    background-size: cover;
-    background-position: center;
-    margin-left: 20px;
 }
 
-.wiretext {
-    background-color: white;
-    position: relative;
-    height: 50px;
-    margin-left: 23px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 70%;
-    top: -18px;
-    left: -3px;
-}
-
-
-.squares-bottom .sports {
-	border-top-left-radius: 15px;
-    height: 140px;
-    border-top-right-radius: 15px;
-    width: 70%;
-    overflow: hidden;
+.sports {
     background-image: url("../images/sports.jpeg");
-    background-size: cover;
-    background-position: right center;
 }
 
-.sportstext {
-    background-color: white;
-    position: relative;
-    height: 50px;
-    margin-left: 3px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 70%;
-    top: -18px;
-    left: -3px;
-}
-
-
-.squares-bottom .colorblast {
-	border-top-left-radius: 15px;
-    height: 140px;
-    border-top-right-radius: 15px;
-    width: 70%;
-    overflow: hidden;
+.colorblast {
     background-image: url("../images/colorblast.jpeg");
-    background-size: cover;
-    background-position: center;
-}
-
-.colorblasttext {
-    background-color: white;
-    position: relative;
-    height: 50px;
-    margin-left: 3px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 70%;
-    top: -18px;
-    left: -3px;
 }
 
 
-.squares-bottom .gates {
-	border-top-left-radius: 15px;
-    height: 140px;
-    border-top-right-radius: 15px;
-    width: 70%;
-    overflow: hidden;
+.gates {
     background-image: url("../images/gates.jpeg");
-    background-size: cover;
-    background-position: center;
 }
 
-.gatestext {
-    background-color: white;
-    position: relative;
-    height: 50px;
-    margin-left: 3px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 70%;
-    top: -18px;
-    left: -3px;
-}
-
-
-.squares-bottom .winter {
-	border-top-left-radius: 15px;
-    height: 140px;
-    border-top-right-radius: 15px;
-    width: 70%;
-    overflow: hidden;
+.winter {
     background-image: url("../images/winter.jpeg");
-    background-size: cover;
-    background-position: center;
-}
-
-.wintertext {
-    background-color: white;
-    position: relative;
-    height: 50px;
-    margin-left: 3px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 70%;
-    top: -18px;
-    left: -3px;
 }
 
 
-.squares-bottom .fire {
-	border-top-left-radius: 15px;
-    height: 140px;
-    border-top-right-radius: 15px;
-    width: 70%;
-    overflow: hidden;
+.fire {
     background-image: url(../images/fire.jpeg);
-    background-size: cover;
-    background-position: center;
 }
 
-.firetext {
-    background-color: white;
-    position: relative;
-    height: 50px;
-    margin-left: 3px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 70%;
-    top: -18px;
-    left: -3px;
-}
 
 .common {
 	color: black;
@@ -398,31 +213,7 @@ hr {
     position: relative;	
 }
 
-.gallery-left {
-    float: left;
-    width: 20%;
-    display: block;
-}
-
-.gallery-right {
-    float: right;
-    width: 20%;
-}
-
-.gallery-left:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.gallery-right:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .blurb p {
-    margin-top: 95px;
 	font-family: 'Pacifico', cursive;
 	font-size: 18px;
 	font-weight: bold;
@@ -431,33 +222,25 @@ hr {
 	text-align: center;
 }
 
-.social {
-    display: inline-block;
-    width: 48%;
-    vertical-align: top;
-    margin-top: 10px;
-    text-align: right;
+.foot {
+    margin-top: 20px;
+    background-color: #000000;
+    width: 100%;
+    height: 250px;
 }
 
-.social a {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 18px;
-    color: #FF69B4;
-    padding: 18px;
-    margin-right: 5px;
-    cursor: pointer;
-}
 
 .contact {
     display: inline-block;
-    width: 48%;
+    width: 950px;
+    margin: 0 auto;
 }
 
 .contact h2 {
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
     color: #FF69B4;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 input {
@@ -465,8 +248,16 @@ input {
     font-size: 18px;
     color: black;
     display: block;
-    margin-left: 10px;
-    width: 50%;
+    margin-left: 20px;
+    width: 450px;
+}
+
+textarea {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-left: 20px;
+    width: 450px;
 }
 
 
@@ -476,24 +267,73 @@ button {
     color: white;
     background-color: #FF69B4;
     display: block;
-    margin-left: 10px;
-    width: 75px;
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 85px;
     border-radius: 10px;
     cursor: pointer;
-    margin: 12px;   
 }
 
-textarea {
+
+.social {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;   
+    padding-left: 120px;
+    text-align: right;
+}
+
+.social a {
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
-    color: black;
-    margin-left: 10px;
-    width: 50%;
+    color: #FF69B4;
+    margin: 20px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
-.foot {
-    margin-top: 20px;
-    background-color: #000000;
-    width: 100%;
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated2 {
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated3 {
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@media(max-width: 1325px){
+    .social {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        text-align: none;
+        width: 0px;
+    }
+}
+
+@media(max-width: 1261px){
+    .hello {
+        display: block;
+        margin: 0px;
+    }
+}
+
+@media(max-width: 1082px){
+    .squares{
+        display: block;
+        margin: 0px;
+    }
 }
