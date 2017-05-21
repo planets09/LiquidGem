@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Pacifico');
+/*@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Pacifico');*/
 
 body {
 	background-color: #D3D3D3;
@@ -84,10 +84,10 @@ hr {
 
 .hello .banner {
     border-radius: 20px;
-    height: 285px;
+    height: 300px;
     width: 1570px;
     overflow: hidden;
-    background-image: url(../images/sunset-rocks.jpeg);
+    background-image: url('../images/sunset-rocks.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -156,45 +156,45 @@ hr {
 }
 
 .stormy {
-    background-image: url(../images/lightening.jpeg);
+    background-image: url('../images/lightening.jpeg');
 }
 
 .racing {
-    background-image: url(../images/racingcapetown.jpeg);
+    background-image: url('../images/racingcapetown.jpeg');
 }
 
 .deer {
-    background-image: url("../images/africa.jpeg");
+    background-image: url('../images/africa.jpeg');
 }
 
 .lazy {
-    background-image: url("../images/lazydays.jpeg");
+    background-image: url('../images/lazydays.jpeg');
 }
 
 .wire {
-    background-image: url("../images/barbedwire.jpeg");
+    background-image: url('../images/barbedwire.jpeg');
 }
 
 .sports {
-    background-image: url("../images/sports.jpeg");
+    background-image: url('../images/sports.jpeg');
 }
 
 .colorblast {
-    background-image: url("../images/colorblast.jpeg");
+    background-image: url('../images/colorblast.jpeg');
 }
 
 
 .gates {
-    background-image: url("../images/gates.jpeg");
+    background-image: url('../images/gates.jpeg');
 }
 
 .winter {
-    background-image: url("../images/winter.jpeg");
+    background-image: url('../images/winter.jpeg');
 }
 
 
 .fire {
-    background-image: url(../images/fire.jpeg);
+    background-image: url('../images/fire.jpeg');
 }
 
 
